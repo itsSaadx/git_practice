@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+    section {
+      margin: 30px auto;
+      width: 60%;
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;  
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    thead {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 18px;
+    }
+
+    th, td {
+      border: 2px solid #ddd;
+      padding: 12px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9; /* zebra effect */
+   }
+
+    tr:hover {
+      background-color: #f1f1f1;      /* highlight on hover */
+      cursor: pointer;
+    }
+  </style>
+
+</head>
+<body>
+    <h1>Orderd list</h1>
+    <ol>
+        <li>kela</li>
+        <li>mango</li>
+        <li>apple</li>
+    </ol>
+
+    <h2>Unorderd list</h2>
+    <ul>
+        <li>pen</li>
+        <li>book</li>
+        <li>notebook</li>
+    </ul>
+
+    <h3>Defination term list</h3>
+    <dl>
+        <dt>html</dt>
+        <dd>html is hyper text markup language</dd>
+
+        <dt>javascript</dt>
+        <dd>it is a functionabel programing language </dd>
+
+        <dt>css</dt>
+        <dd>Casecading style sheet</dd>
+    </dl>
+
+
+    <section>
+    <table border="2">
+        <!-- Tabel head -->
+        <thead>
+            <tr>
+               <th>course</th>
+               <th>fees</th>
+               <th>name of pursuing</th>
+               <th>Course demand</th>
+            </tr>
+        </thead>
+        <!-- Tabel body -->
+        <tbody>
+        <tr>
+        <td>web dev</td>
+        <td>5000</td>
+        <td>JACK</td>
+        <td>always in demand</td>
+        </tr>
+
+        <tr>
+        <td>data science</td>
+        <td colspan="2">9000</td>
+        <td>Allen</td>
+        <td>high demand</td>
+        </tr>
+        <tr>
+        <td>AI ML</td>
+        <td>10000<d>
+        <td>Ali</td>
+        <td>extremly high demand</td>
+        </tr>
+       </tbody>
+    </table>
+    </section>
+</body>
+
+
+</html>

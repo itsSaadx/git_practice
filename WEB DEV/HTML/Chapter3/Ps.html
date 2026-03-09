@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1, h3 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+        }
+
+        form div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        .images {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .images img {
+            margin: 5px;
+            border-radius: 8px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.3);
+            width: 405px;
+            height: 308px;
+        }
+
+        /* Center submit button */
+        .submit-btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #0077ff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #005fcc;
+        }
+    </style>
+</head>
+<body>
+   <h1>Welcome to Experience New Vacation</h1>
+   <h4><p>For going on vacation there are various places. Please fill the form below to book your new experience.</p></h4>
+   <h3>Vacation Form</h3>
+
+   <form action="submit.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+        </div>
+
+        <div>
+            <label for="Phone">Phone Number</label>
+            <input type="tel" name="ph" id="Phone">
+        </div>
+
+        <div>
+            <label for="n">Enter Members for Vacation</label>
+            <input type="number" name="n" id="n">
+        </div>
+
+        <div>
+            <label for="hotel">Select Hotel:</label>
+            <select name="hotel" id="hotel">
+                <option value="" disabled selected>Select hotel to stay</option>
+                <option value="Paradise">Paradise</option>
+                <option value="Mhefil">Mhefil</option>
+                <option value="Taj">Taj</option>
+            </select>
+        </div>
+
+        <div class="images">
+            <p><b><i>Someone is experiencing his vacation by booking from our website</i></b></p>
+            <img src="v1.jpg" alt="loading error">
+            <img src="v2.jpg" alt="loading error">
+            <img src="v3.jpg" alt="loading error">
+        </div>
+
+        <div class="submit-btn">
+            <button type="submit">Submit</button>
+        </div>
+   </form>
+</body>
+</html>

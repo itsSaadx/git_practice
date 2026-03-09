@@ -1,0 +1,54 @@
+  
+    body {
+      background-color: #f5f5dc; /* beige / cream */
+      font-family: "Georgia", serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #013220; /* deep old-money green */
+      margin: 30px 0;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #fffef5; /* light ivory */
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    thead {
+      background-color: #014421; /* dark green */
+      color: #f5f5dc; /* beige text */
+      font-size: 18px;
+    }
+
+    th, td {
+      border: 1px solid #d2b48c; /* soft gold border */
+      padding: 14px;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f0ead6; /* subtle cream striping */
+    }
+
+    tr:hover {
+      background-color: #e6ddc6; /* elegant hover effect */
+      cursor: pointer;
+    }
+
+    th {
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  
